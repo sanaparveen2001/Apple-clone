@@ -1,0 +1,68 @@
+@import url("./main.css");
+@import url('./footer.css');
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+#header{
+    position: sticky;
+    top: 0;
+}
+#top-nav{
+    /* border: 2px solid; */
+    height: 40px;
+    display: flex;
+    align-items: center;
+    padding-left: 270px;
+    background-color: #161617;
+    color: #F5F5F7;
+}
+
+#top-nav ul{
+    list-style: none;
+    display: inline-flex;
+    /* border: 2px solid red; */
+    width: 170px;
+    justify-content: space-between;
+
+}
+#top-nav ul li{
+    font-size: 12px;
+    font-weight: 400;
+}
+
+#nav{
+    /* border: 2px solid; */
+    height: 44px;
+    background-color:  rgba(22, 22, 23, .8);
+
+}
+#sub-nav {
+    width: 71%;
+    margin-left: 270px;
+    /* display: flex;
+    align-items: center; */
+}
+
+#sub-nav ol{
+    list-style: none;
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-between;
+    /* color:  #E8E8ED; */
+    color: #6e6e73;
+    width: 90%;
+}
+
+#sub-nav ol li svg{
+    fill: #fff;
+}
+
+#sub-nav ol li{
+    font-size: 12px;
+}
+.bx{
+    font-size: 16px;
+}

@@ -1,0 +1,438 @@
+#anouncement{
+    /* border: 2px solid; */
+    height: 44px;
+    padding: 15px;
+   text-align: center;
+   background-color:  #161617;
+   color: #fff;
+   font-size: 14px;
+}
+
+#anouncement sup{
+    font-size: 8px;
+}
+
+#section1{
+    /* border: 2px solid red; */
+    height: 80vh;
+    /* background-color: #000; */
+    color: #fff; 
+    text-align: center;
+    padding-top: 50px;
+    background-image: url(./images/section1_phone.jpg);
+    background-position: center;
+    line-height: 55px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#section1 h2{
+    font-size: 55px;
+    font-weight: 550;
+    word-spacing: -10px;
+}
+
+#section1 p{
+    font-size: 28px;
+    font-weight: 400; 
+}
+
+#section1 span button{
+    padding: 14px;
+    border-radius: 50px;
+    width: 140px;
+    background-color: #0071e3;
+    font-size: 16px;
+    color: #fff;
+    border: 0;
+}
+
+#section1 button{
+    padding: 14px;
+    width: 80px;
+    border-radius:50px ;
+    border: 0;
+    border: 2px solid #0071e3;
+    color: #0071e3;
+    background-color: #000;
+    font-size: 16px;
+}
+#section1 button:hover{
+    background-color: #0071e3;
+    color: #fff;
+    cursor: pointer;
+}
+
+#section2{
+    /* border: 3px solid red; */
+    height: 80vh;
+    /* background-color: #a6c9ed; */
+    background-image: url(./images/section2_phone.jpg);
+    background-position: center bottom;
+    padding: 10px;
+    text-align: center;
+    /* width: 50%; */
+    background-size: cover;
+    padding-top: 50px;
+    line-height: 55px;
+    background-repeat: no-repeat;
+}
+#section2 h2{
+    font-size: 55px;
+    font-weight: 550;
+    word-spacing: -10px;
+}
+
+#section2 p{
+    font-size: 28px;
+    font-weight: 400;
+}
+
+#section2 span button{
+    padding: 14px;
+    border-radius: 50px;
+    width: 140px;
+    background-color: #0071e3;
+    font-size: 16px;
+    color: #fff;
+    border: 0;
+}
+#section2 button{
+    padding: 14px;
+    width: 80px;
+    border-radius:50px ;
+    border: 0;
+    border: 2px solid #0071e3;
+    color: #0071e3;
+    font-size: 16px;
+}
+#section2 button:hover{
+    background-color: #0071e3;
+    color: #fff;
+    cursor: pointer;
+}
+
+#section3{
+    border: 3px solid;
+    height: 10vh;
+    width: 100%;
+}
+
+#section4{
+    width: 100%;
+    /* border: 3px solid red; */
+}
+
+/* block 1 elements */
+#block1{
+    padding: 6px 8px;
+    display: flex;
+    /* border: 3px solid; */
+}
+
+/* block 1 first child */
+#block1 div:first-child{
+    height: 80vh;
+    width: 49%;
+    padding-top: 30px;
+    text-align: center;
+    line-height: 40px;
+    /* border: 2px solid red; */
+    color: #fff;
+    background-image: url(./images/phone3.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#block1 div:first-child h2{
+    font-size: 40px;
+    font-weight: 550;
+    /* word-spacing: -10px; */
+}
+#block1 div:first-child p{
+    font-size: 20px;
+    font-weight: 400; 
+}
+#block1  div:first-child span button{
+    padding: 10px;
+    border-radius: 50px;
+    width: 100px;
+    background-color: #0071e3;
+    font-size: 14px;
+    color: #fff;
+    border: 0;
+}
+#block1 div:first-child button{
+    padding: 10px;
+    width: 60px;
+    border-radius:50px ;
+    border: 0;
+    border: 2px solid #0071e3;
+    color: #0071e3;
+    font-size: 12px;
+    background-color: #000;
+}
+#block1 div:first-child button:hover{
+    background-color: #0071e3;
+    color: #fff;
+    cursor: pointer;
+}
+/* Block 1 last child */
+
+#block1 div:last-child{
+    height: 80vh;
+    width: 50%;
+    padding-top: 30px;
+    text-align: center;
+    /* border: 2px solid red; */
+    line-height: 40px;
+    /* color: #fff; */
+    background-image: url(./images/phone4.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#block1 div:last-child h2{
+    font-size: 40px;
+    font-weight: 550;
+    /* word-spacing: -10px; */
+}
+#block1 div:last-child p{
+    font-size: 20px;
+    font-weight: 400; 
+}
+#block1  div:last-child span button{
+    padding: 10px;
+    border-radius: 50px;
+    width: 100px;
+    background-color: #0071e3;
+    font-size: 14px;
+    color: #fff;
+    border: 0;
+}
+#block1 div:last-child button{
+    padding: 10px;
+    width: 60px;
+    border-radius:50px ;
+    border: 0;
+    border: 2px solid #0071e3;
+    color: #0071e3;
+    font-size: 12px;
+    /* background-color: #000; */
+}
+#block1 div:last-child button:hover{
+    background-color: #0071e3;
+    color: #fff;
+    cursor: pointer;
+}
+
+/* Block 2 elements */
+#block2{
+    padding: 5px 8px;
+    display: flex;
+    /* border: 3px solid; */
+}
+
+/* block 2 first child */
+
+#block2 div:first-child{
+    height: 80vh;
+    width: 49%;
+    padding-top: 30px;
+    text-align: center;
+    line-height: 40px;
+    color: #fff;
+    background-image: url(./images/watch.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#block2 div:first-child h2 i{
+    font-size: 38px;
+}
+
+#block2 div:first-child h2{
+    font-size: 34px;
+    font-weight: 550;
+    word-spacing: -10px;
+}
+#block2 div:first-child h6{
+    color: RED;
+    font-size: 12px;
+    letter-spacing: 2px;
+}
+#block2 div:first-child p{
+    font-size: 20px;
+    font-weight: 400; 
+}
+#block2  div:first-child span button{
+    padding: 10px;
+    border-radius: 50px;
+    width: 100px;
+    background-color: #0071e3;
+    font-size: 14px;
+    color: #fff;
+    border: 0;
+}
+#block2 div:first-child button{
+    padding: 10px;
+    width: 60px;
+    border-radius:50px ;
+    border: 0;
+    border: 2px solid #0071e3;
+    color: #0071e3;
+    font-size: 12px;
+    background-color: #000;
+}
+#block2 div:first-child button:hover{
+    background-color: #0071e3;
+    color: #fff;
+    cursor: pointer;
+}
+
+/* Block 2 last-child */
+
+#block2 div:last-child{
+    height: 80vh;
+    width: 50%;
+    padding-top: 30px;
+    text-align: center;
+    line-height: 40px;
+    /* color: #fff; */
+    background-image: url(./images/promo_ai__couihqxznyvm_large.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#block2 div:last-child h2{
+    font-size: 34px;
+    font-weight: 550;
+    color: #1d1d1f;
+    /* word-spacing: -10px; */
+}
+#block2 div:last-child h6{
+    font-size: 18px;
+    font-weight: 400;
+   
+    /* letter-spacing: 2px; */
+}
+#block2 div:last-child p{
+    font-size: 20px;
+    font-weight: 400; 
+    color: #6e6e73;
+}
+#block2  div:last-child span button{
+    padding: 10px;
+    border-radius: 50px;
+    width: 100px;
+    background-color: #0071e3;
+    font-size: 14px;
+    color: #fff;
+    border: 0;
+}
+#block2 div:last-child button{
+    padding: 10px;
+    width: 60px;
+    border-radius:50px ;
+    border: 0;
+    border: 2px solid #0071e3;
+    color: #0071e3;
+    font-size: 12px;
+    /* background-color: #000; */
+}
+#block2 div:last-child button:hover{
+    background-color: #0071e3;
+    color: #fff;
+    cursor: pointer;
+}
+
+/* Block 3 elements */
+
+#block3{
+    padding: 5px 8px;
+    display: flex;
+    /* border: 3px solid; */
+}
+
+/* Block 1 first child */
+
+#block3 div:first-child{
+    height: 80vh;
+    width: 49%;
+    padding-top: 30px;
+    text-align: center;
+    line-height: 40px;
+    /* border: 2px solid red; */
+    color: #fff;
+    background-image: url(./images/alldevices.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#block3 div:first-child h2{
+    font-size: 34px;
+    font-weight: 550;
+    /* word-spacing: -10px; */
+}
+
+#block3 div:first-child p{
+    font-size: 20px;
+    font-weight: 400; 
+}
+#block3  div:first-child span button{
+    padding: 10px;
+    border-radius: 50px;
+    width: 100px;
+    background-color: #0071e3;
+    font-size: 14px;
+    color: #fff;
+    border: 0;
+}
+
+/* Block 3 last-child */
+
+#block3 div:last-child{
+    height: 80vh;
+    width: 50%;
+    padding-top: 30px;
+    text-align: center;
+    line-height: 40px;
+    /* border: 2px solid  red; */
+    /* color: #fff; */
+    background-image: url(./images/nokiatype.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#block3 div:last-child h2 i{
+    font-size: 38px;
+}
+
+#block3 div:last-child h2{
+    font-size: 34px;
+    font-weight: 550;
+    /* word-spacing: -10px; */
+}
+
+#block3 div:last-child p{
+    font-size: 20px;
+    font-weight: 400; 
+}
+#block3  div:last-child span button{
+    padding: 10px;
+    border-radius: 50px;
+    width: 150px;
+    background-color: #0071e3;
+    font-size: 14px;
+    color: #fff;
+    border: 0;
+}
+
+#section5{
+    border: 3px solid;
+    height: 100px;
+}
